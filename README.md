@@ -60,7 +60,7 @@ For the parameters, first of all, there is epsilon, which helps shape the hyperp
 
 Since compilation time was quite fast, I also used this model for testing different embeddings.
 
-C | 1 | 5 | 10 | 50 | 100
+epsilon \ C | 1 | 5 | 10 | 50 | 100
 --- | :---: | :---: | :---: | :---: | :---:
 0 | train: 0.039 <br> test: 0.072 | **train: 0.043 <br> test: 0.073** | train: 0.066 <br> test: 0.096 | train: 0.053 <br> test: 0.081 | train: 0.05 <br> test: 0.082
 0.05 | train: 0.062 <br> test: 0.087 | train: 0.127 <br> test: 0.149 | train: 0.063 <br> test: 0.09 | train: 0.073 <br> test: 0.1 | train: 0.064 <br> test: 0.091
